@@ -26,7 +26,7 @@
         }
 
         /* Desktop layout: 2x2 grid */
-        @media (min-width: 768px) {
+        @media (min-width: 668px) {
             .container {
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
@@ -37,7 +37,7 @@
         }
 
         /* Mobile layout: single column */
-        @media (max-width: 767px) {
+        @media (max-width: 667px) {
             .container {
                 grid-template-columns: 1fr;
                 grid-template-rows: auto;
